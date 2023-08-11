@@ -1,0 +1,36 @@
+/** @format */
+
+* {
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.image-container {
+	width: 300px;
+	position: relative;
+}
+.image-container img {
+	width: 100%;
+}
+.image-container p {
+	position: absolute;
+	color: white;
+	bottom: 0;
+	left: 20px;
+}
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+ul li {
+	cursor: pointer;
+}
+b {
+	color: blue;
+}
+a {
+	color: purple;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
